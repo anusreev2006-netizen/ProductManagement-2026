@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "price": 3299,
+      "stock": "12",
+      "rating": 4.2,
+      "image": "https://rukminim2.flixcart.com/image/1536/1536/xif0q/shoe/z/m/c/8-bisi-rng-512-black-8-8-bruton-black-original-imahb5w6yuyffbzy.jpeg?q=90"
+    },
+    {
+      "id": "3",
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 4999,
+      "stock": 0,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8nnicaRiAKLZJvYDwKHENgtL0T5Kik1K4crK3-0xLxA&s=10"
+    },
+    {
+      "id": "4",
+      "name": "Coffee Mug",
+      "category": "Home",
+      "price": 499,
+      "stock": 20,
+      "rating": 4.1,
+      "image": "https://market99.com/cdn/shop/files/ceramic-coffee-mug-330ml-sea-green-mugs-1-29021595762858.jpg?v=1737464621"
+    },
+    {
+      "name": "Lipstick",
+      "category": "Cosmetics",
+      "price": "200",
+      "stock": "10",
+      "rating": "4.3",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20240112/sclp/65a0faea74cb305fe013f40b/-1117Wx1400H-4943419670-russianred-MODEL.jpg",
+      "id": "hBCCyjoZ9G0"
+    },
+    {
+      "name": "Lipbalm",
+      "category": "Cosmetics",
+      "price": "249",
+      "stock": "11",
+      "rating": "4.5",
+      "image": "https://brownliving.in/cdn/shop/files/beetroot-lip-balm-natural-tinted-hydrating-lip-care-bitlpbm-kalaa-5846993.png?v=1776896948",
+      "id": "jKiXl2-K9nM"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "customer": "John",
+      "date": "2026-08-05",
+      "status": "Delivered",
+      "total": 5499,
+      "items": 3
+    },
+    {
+      "id": "1002",
+      "customer": "Sarah",
+      "date": "2026-08-07",
+      "status": "Pending",
+      "total": 3299,
+      "items": 1
+    },
+    {
+      "id": "1003",
+      "customer": "David",
+      "date": "2026-08-10",
+      "status": "Shipped",
+      "total": 4999,
+      "items": 2
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
